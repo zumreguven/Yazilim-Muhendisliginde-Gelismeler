@@ -17,9 +17,16 @@ public class App {
 
 
         System.out.println(carpma(sayi1,sayi2));
-         
-}
 
+        System.out.println("4.commit ile port numarası 44 olarak değişmektedir");
+        System.setProperty("server.port", "44"); 
+        
+
+        
+
+    }
+
+    
     public static String getSum(int num1,int num2) {
         int sum=num1+num2;
         return "2.commit işelmi olarak iki sayının toplamı : Toplama : " + sum;
